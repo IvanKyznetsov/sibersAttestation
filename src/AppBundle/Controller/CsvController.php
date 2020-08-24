@@ -10,14 +10,14 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 /**
  * Class CsvController
  *
- * @Route("/csv")
+ * @Route("")
  *
  * @package AppBundle\Controller
  */
 class CsvController extends Controller
 {
     /**
-     * @Route("/generate")
+     * @Route("")
      * @Template
      *
      * @return Response|array
